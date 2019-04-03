@@ -1,4 +1,4 @@
-#ifndef FIRE_CHOCOBO.H
+#ifdef FIRECHOCOBO_H
 #define FIRECHOCOBO_H
 #include "Chocobo.h"
 
@@ -10,4 +10,5 @@ public:
 	virtual int getMagicType() const override;
 	int getMagicTypeStatic() const;
 };
+
 #endif
